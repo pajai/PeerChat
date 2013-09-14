@@ -10,18 +10,19 @@
 		2E4538FF17BD5E5B009924BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4538FE17BD5E5B009924BC /* Foundation.framework */; };
 		2E45390117BD5E5B009924BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45390017BD5E5B009924BC /* CoreGraphics.framework */; };
 		2E45390317BD5E5B009924BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45390217BD5E5B009924BC /* UIKit.framework */; };
-		2E45390917BD5E5B009924BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E45390717BD5E5B009924BC /* InfoPlist.strings */; };
-		2E45390B17BD5E5B009924BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45390A17BD5E5B009924BC /* main.m */; };
-		2E45390F17BD5E5B009924BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45390E17BD5E5B009924BC /* AppDelegate.m */; };
-		2E45391217BD5E5B009924BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E45391017BD5E5B009924BC /* Main_iPhone.storyboard */; };
-		2E45391817BD5E5B009924BC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45391717BD5E5B009924BC /* RootViewController.m */; };
-		2E45391A17BD5E5B009924BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E45391917BD5E5B009924BC /* Images.xcassets */; };
 		2E45392117BD5E5B009924BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45392017BD5E5B009924BC /* XCTest.framework */; };
 		2E45392217BD5E5B009924BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4538FE17BD5E5B009924BC /* Foundation.framework */; };
 		2E45392317BD5E5B009924BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45390217BD5E5B009924BC /* UIKit.framework */; };
 		2E45392B17BD5E5B009924BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E45392917BD5E5B009924BC /* InfoPlist.strings */; };
-		2E45392D17BD5E5B009924BC /* PeerCommunicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45392C17BD5E5B009924BC /* PeerCommunicationTests.m */; };
+		2E45392D17BD5E5B009924BC /* PeerChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E45392C17BD5E5B009924BC /* PeerChatTests.m */; };
 		2E45393717BD5F52009924BC /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E45393617BD5F52009924BC /* MultipeerConnectivity.framework */; };
+		43F75F5417E524C700051035 /* PeerChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43F75F4617E524C700051035 /* PeerChat-Info.plist */; };
+		43F75F5517E524C700051035 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F75F4917E524C700051035 /* RootViewController.m */; };
+		43F75F5617E524C700051035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F75F4B17E524C700051035 /* AppDelegate.m */; };
+		43F75F5817E524C700051035 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43F75F5017E524C700051035 /* InfoPlist.strings */; };
+		43F75F5917E524C700051035 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F75F5217E524C700051035 /* Images.xcassets */; };
+		43F75F5A17E524C700051035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F75F5317E524C700051035 /* main.m */; };
+		43F75F5F17E5262400051035 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F75F5D17E5262400051035 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E4538FB17BD5E5B009924BC /* PeerCommunication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerCommunication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4538FB17BD5E5B009924BC /* PeerChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E4538FE17BD5E5B009924BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E45390017BD5E5B009924BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2E45390217BD5E5B009924BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2E45390617BD5E5B009924BC /* PeerCommunication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeerCommunication-Info.plist"; sourceTree = "<group>"; };
-		2E45390817BD5E5B009924BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E45390A17BD5E5B009924BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E45390C17BD5E5B009924BC /* PeerCommunication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeerCommunication-Prefix.pch"; sourceTree = "<group>"; };
-		2E45390D17BD5E5B009924BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E45390E17BD5E5B009924BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E45391117BD5E5B009924BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		2E45391617BD5E5B009924BC /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		2E45391717BD5E5B009924BC /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		2E45391917BD5E5B009924BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2E45391F17BD5E5B009924BC /* PeerCommunicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerCommunicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E45391F17BD5E5B009924BC /* PeerChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E45392017BD5E5B009924BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2E45392817BD5E5B009924BC /* PeerCommunicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeerCommunicationTests-Info.plist"; sourceTree = "<group>"; };
+		2E45392817BD5E5B009924BC /* PeerChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeerChatTests-Info.plist"; sourceTree = "<group>"; };
 		2E45392A17BD5E5B009924BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E45392C17BD5E5B009924BC /* PeerCommunicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerCommunicationTests.m; sourceTree = "<group>"; };
+		2E45392C17BD5E5B009924BC /* PeerChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerChatTests.m; sourceTree = "<group>"; };
 		2E45393617BD5F52009924BC /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		43F75F4617E524C700051035 /* PeerChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PeerChat-Info.plist"; path = "PeerChat/PeerChat-Info.plist"; sourceTree = SOURCE_ROOT; };
+		43F75F4717E524C700051035 /* PeerChat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PeerChat-Prefix.pch"; path = "PeerChat/PeerChat-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		43F75F4817E524C700051035 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = PeerChat/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		43F75F4917E524C700051035 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = PeerChat/RootViewController.m; sourceTree = SOURCE_ROOT; };
+		43F75F4A17E524C700051035 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PeerChat/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		43F75F4B17E524C700051035 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PeerChat/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		43F75F5117E524C700051035 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		43F75F5217E524C700051035 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PeerChat/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		43F75F5317E524C700051035 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PeerChat/main.m; sourceTree = SOURCE_ROOT; };
+		43F75F5E17E5262400051035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +86,8 @@
 		2E4538F217BD5E5B009924BC = {
 			isa = PBXGroup;
 			children = (
-				2E45390417BD5E5B009924BC /* PeerCommunication */,
-				2E45392617BD5E5B009924BC /* PeerCommunicationTests */,
+				2E45390417BD5E5B009924BC /* PeerChat */,
+				2E45392617BD5E5B009924BC /* PeerChatTests */,
 				2E4538FD17BD5E5B009924BC /* Frameworks */,
 				2E4538FC17BD5E5B009924BC /* Products */,
 			);
@@ -95,8 +96,8 @@
 		2E4538FC17BD5E5B009924BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E4538FB17BD5E5B009924BC /* PeerCommunication.app */,
-				2E45391F17BD5E5B009924BC /* PeerCommunicationTests.xctest */,
+				2E4538FB17BD5E5B009924BC /* PeerChat.app */,
+				2E45391F17BD5E5B009924BC /* PeerChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,55 +114,74 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E45390417BD5E5B009924BC /* PeerCommunication */ = {
+		2E45390417BD5E5B009924BC /* PeerChat */ = {
 			isa = PBXGroup;
 			children = (
-				2E45391017BD5E5B009924BC /* Main_iPhone.storyboard */,
-				2E45390D17BD5E5B009924BC /* AppDelegate.h */,
-				2E45390E17BD5E5B009924BC /* AppDelegate.m */,
-				2E45391617BD5E5B009924BC /* RootViewController.h */,
-				2E45391717BD5E5B009924BC /* RootViewController.m */,
-				2E45391917BD5E5B009924BC /* Images.xcassets */,
-				2E45390517BD5E5B009924BC /* Supporting Files */,
+				43F75F5C17E5262400051035 /* Base.lproj */,
+				43F75F4817E524C700051035 /* RootViewController.h */,
+				43F75F4917E524C700051035 /* RootViewController.m */,
+				43F75F4A17E524C700051035 /* AppDelegate.h */,
+				43F75F4B17E524C700051035 /* AppDelegate.m */,
+				43F75F5B17E524EB00051035 /* supporting files */,
+				43F75F4F17E524C700051035 /* en.lproj */,
+				43F75F5217E524C700051035 /* Images.xcassets */,
 			);
+			name = PeerChat;
 			path = PeerCommunication;
 			sourceTree = "<group>";
 		};
-		2E45390517BD5E5B009924BC /* Supporting Files */ = {
+		2E45392617BD5E5B009924BC /* PeerChatTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E45390617BD5E5B009924BC /* PeerCommunication-Info.plist */,
-				2E45390717BD5E5B009924BC /* InfoPlist.strings */,
-				2E45390A17BD5E5B009924BC /* main.m */,
-				2E45390C17BD5E5B009924BC /* PeerCommunication-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		2E45392617BD5E5B009924BC /* PeerCommunicationTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E45392C17BD5E5B009924BC /* PeerCommunicationTests.m */,
+				2E45392C17BD5E5B009924BC /* PeerChatTests.m */,
 				2E45392717BD5E5B009924BC /* Supporting Files */,
 			);
-			path = PeerCommunicationTests;
+			path = PeerChatTests;
 			sourceTree = "<group>";
 		};
 		2E45392717BD5E5B009924BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E45392817BD5E5B009924BC /* PeerCommunicationTests-Info.plist */,
+				2E45392817BD5E5B009924BC /* PeerChatTests-Info.plist */,
 				2E45392917BD5E5B009924BC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		43F75F4F17E524C700051035 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				43F75F5017E524C700051035 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = PeerChat/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		43F75F5B17E524EB00051035 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				43F75F4617E524C700051035 /* PeerChat-Info.plist */,
+				43F75F4717E524C700051035 /* PeerChat-Prefix.pch */,
+				43F75F5317E524C700051035 /* main.m */,
+			);
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
+		43F75F5C17E5262400051035 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				43F75F5D17E5262400051035 /* Main_iPhone.storyboard */,
+			);
+			name = Base.lproj;
+			path = PeerChat/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E4538FA17BD5E5B009924BC /* PeerCommunication */ = {
+		2E4538FA17BD5E5B009924BC /* PeerChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E45393017BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerCommunication" */;
+			buildConfigurationList = 2E45393017BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerChat" */;
 			buildPhases = (
 				2E4538F717BD5E5B009924BC /* Sources */,
 				2E4538F817BD5E5B009924BC /* Frameworks */,
@@ -171,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = PeerCommunication;
+			name = PeerChat;
 			productName = PeerCommunication;
-			productReference = 2E4538FB17BD5E5B009924BC /* PeerCommunication.app */;
+			productReference = 2E4538FB17BD5E5B009924BC /* PeerChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E45391E17BD5E5B009924BC /* PeerCommunicationTests */ = {
+		2E45391E17BD5E5B009924BC /* PeerChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E45393317BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerCommunicationTests" */;
+			buildConfigurationList = 2E45393317BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerChatTests" */;
 			buildPhases = (
 				2E45391B17BD5E5B009924BC /* Sources */,
 				2E45391C17BD5E5B009924BC /* Frameworks */,
@@ -189,9 +209,9 @@
 			dependencies = (
 				2E45392517BD5E5B009924BC /* PBXTargetDependency */,
 			);
-			name = PeerCommunicationTests;
+			name = PeerChatTests;
 			productName = PeerCommunicationTests;
-			productReference = 2E45391F17BD5E5B009924BC /* PeerCommunicationTests.xctest */;
+			productReference = 2E45391F17BD5E5B009924BC /* PeerChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E4538F617BD5E5B009924BC /* Build configuration list for PBXProject "PeerCommunication" */;
+			buildConfigurationList = 2E4538F617BD5E5B009924BC /* Build configuration list for PBXProject "PeerChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E4538FA17BD5E5B009924BC /* PeerCommunication */,
-				2E45391E17BD5E5B009924BC /* PeerCommunicationTests */,
+				2E4538FA17BD5E5B009924BC /* PeerChat */,
+				2E45391E17BD5E5B009924BC /* PeerChatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,9 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E45391A17BD5E5B009924BC /* Images.xcassets in Resources */,
-				2E45391217BD5E5B009924BC /* Main_iPhone.storyboard in Resources */,
-				2E45390917BD5E5B009924BC /* InfoPlist.strings in Resources */,
+				43F75F5817E524C700051035 /* InfoPlist.strings in Resources */,
+				43F75F5917E524C700051035 /* Images.xcassets in Resources */,
+				43F75F5F17E5262400051035 /* Main_iPhone.storyboard in Resources */,
+				43F75F5417E524C700051035 /* PeerChat-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E45391817BD5E5B009924BC /* RootViewController.m in Sources */,
-				2E45390F17BD5E5B009924BC /* AppDelegate.m in Sources */,
-				2E45390B17BD5E5B009924BC /* main.m in Sources */,
+				43F75F5517E524C700051035 /* RootViewController.m in Sources */,
+				43F75F5A17E524C700051035 /* main.m in Sources */,
+				43F75F5617E524C700051035 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E45392D17BD5E5B009924BC /* PeerCommunicationTests.m in Sources */,
+				2E45392D17BD5E5B009924BC /* PeerChatTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,34 +296,34 @@
 /* Begin PBXTargetDependency section */
 		2E45392517BD5E5B009924BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2E4538FA17BD5E5B009924BC /* PeerCommunication */;
+			target = 2E4538FA17BD5E5B009924BC /* PeerChat */;
 			targetProxy = 2E45392417BD5E5B009924BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E45390717BD5E5B009924BC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E45390817BD5E5B009924BC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2E45391017BD5E5B009924BC /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E45391117BD5E5B009924BC /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
 		2E45392917BD5E5B009924BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2E45392A17BD5E5B009924BC /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43F75F5017E524C700051035 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F75F5117E524C700051035 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43F75F5D17E5262400051035 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F75F5E17E5262400051035 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -386,9 +407,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PeerCommunication/PeerCommunication-Prefix.pch";
-				INFOPLIST_FILE = "PeerCommunication/PeerCommunication-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PeerChat/PeerChat-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PeerChat/PeerChat-Info.plist";
+				PRODUCT_NAME = PeerChat;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -403,9 +424,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PeerCommunication/PeerCommunication-Prefix.pch";
-				INFOPLIST_FILE = "PeerCommunication/PeerCommunication-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PeerChat/PeerChat-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PeerChat/PeerChat-Info.plist";
+				PRODUCT_NAME = PeerChat;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -427,8 +448,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "PeerCommunicationTests/PeerCommunicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PeerCommunicationTests/PeerChatTests-Info.plist";
+				PRODUCT_NAME = PeerChatTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,8 +466,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PeerCommunication/PeerCommunication-Prefix.pch";
-				INFOPLIST_FILE = "PeerCommunicationTests/PeerCommunicationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PeerCommunicationTests/PeerChatTests-Info.plist";
+				PRODUCT_NAME = PeerChatTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -455,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E4538F617BD5E5B009924BC /* Build configuration list for PBXProject "PeerCommunication" */ = {
+		2E4538F617BD5E5B009924BC /* Build configuration list for PBXProject "PeerChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E45392E17BD5E5B009924BC /* Debug */,
@@ -464,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E45393017BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerCommunication" */ = {
+		2E45393017BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E45393117BD5E5B009924BC /* Debug */,
@@ -473,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E45393317BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerCommunicationTests" */ = {
+		2E45393317BD5E5B009924BC /* Build configuration list for PBXNativeTarget "PeerChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E45393417BD5E5B009924BC /* Debug */,
